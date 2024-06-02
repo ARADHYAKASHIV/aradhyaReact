@@ -23,7 +23,7 @@ function Particle() {
             speed: 0.05,
           },
           size: {
-            value: 2.8,
+            value: 2.3,
           },
           opacity: {
             anim: {
