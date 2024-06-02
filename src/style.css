@@ -554,10 +554,10 @@ button:focus {
 
 .tech-icons {
   font-size: 4.5em !important;
-  margin: 15px !important;
+  margin: 5px !important;
   padding: 10px !important;
   opacity: 0.93 !important;
-  border: 1.7px solid rgba(200, 137, 230, 0.637) !important;
+  border: 2px solid rgba(201, 137, 230, 0.775) !important;
   vertical-align: middle !important;
   text-align: center !important;
   border-radius: 5px !important;
@@ -579,7 +579,7 @@ button:focus {
   border: 2.2px solid rgba(197, 115, 230, 0.883) !important;
 }
 .tech-icon-images {
-  padding: 20px !important;
+  padding: 10px !important;
   line-height: 1.6 !important;
 }
 
