@@ -26,7 +26,7 @@ function Projects() {
               imgPath={chatify}
               isBlog={false}
               title="StudyHub"
-              description="StudyHub is a innovative web-based platform designed to support students from 9th to 12th standard in their academic pursuits. The website aims to be a centralized hub for students to access a vast repository of subject-specific formulas and resources, empowering them to excel in their studies."
+              description="                                                                                                                                                                                                                                                                                                                                                                 StudyHub is a innovative web-based platform designed to support students from 9th to 12th standard in their academic pursuits. The website aims to be a centralized hub for students to access a vast repository of subject-specific formulas and resources, empowering them to excel in their studies."
               ghLink="https://github.com/ARADHYAKASHIV/studyhub6996"
               // demoLink="https://chatify-49.web.app/"
             />
@@ -36,9 +36,9 @@ function Projects() {
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
-              title="Zomato Landing Page"
-              description="The Zomato landing page is designed to be a captivating and intuitive interface that immediately engages the user. At the forefront of the landing page is a prominent search bar, empowering users to effortlessly explore a vast database of restaurants, cuisines, and dining options."
-              ghLink="https://github.com/ARADHYAKASHIV/Zomato-landing-page"
+              title="DART"
+              description="Developed a hardware-based end-to-end tracking system for dual-use chemicals, ensuring secure monitoring from manufacture to end-use/export. Integrate blockchain-based documentation and machine learning within the hardware to detect anomalies and prevent falsified documentation. This solution ensures the chemicals are used strictly for legitimate purposes."
+              ghLink="https://github.com/ARADHYAKASHIV/DART"
               // demoLink="https://blogs.soumya-jit.tech/"
             />
           </Col>
@@ -47,10 +47,19 @@ function Projects() {
             <ProjectCard
               imgPath={editor}
               isBlog={false}
-              title="DisenyPlus Hotstar Clone"
-              description="The Disney+ Hotstar clone landing page is designed to be a visually striking and intuitive gateway to a world of entertainment. Immediately, users are greeted with a sleek and modern interface that showcases the platform's core offerings – from the latest blockbuster movies and hit television shows to a vast library of timeless classics and captivating original content."
-              ghLink="https://github.com/ARADHYAKASHIV/DisneyPlus-Hotstar-Clone"
-              // demoLink="https://editor.soumya-jit.tech/"              
+              title="RAKSHAK"
+              description="                                                                                                                                                                     Solution to remotely track police officers deployed  in bandobast duty :
+                          With our hand wearable device which records and monitor the officer's live location
+
+                          Desktop Application - Monitors real time location & receives alerts from the system. 
+
+                          Using a PASSCODE/SECURITY KEY: As it provides an added layer of security, initialization and verification.
+ 
+                          Digital lock feature prevents unauthorized access to the device
+
+                          SOS alert button provides a distress signal in case of an emergency."
+              ghLink="https://github.com/ARADHYAKASHIV/"
+              // demoLink="https://editor.soumya-jit.tech/"
             />
           </Col>
 
