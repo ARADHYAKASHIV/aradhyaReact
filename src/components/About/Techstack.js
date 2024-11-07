@@ -8,7 +8,6 @@ import {
   DiMongodb,
   DiPython,
   DiGit,
-  DiJava,
   DiDatabase,
   
   DiGitCommit,
@@ -22,7 +21,7 @@ import {
   SiBootstrap,
   SiGnubash,
   SiTailwindcss,
-  SiMariadb,
+  // SiMariadb,
   SiAlibabacloud,
   
   SiPhp
@@ -91,12 +90,12 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <SiAlibabacloud />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      {/* <Col xs={4} md={2} className="tech-icons">
         <SiMariadb />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      </Col> */}
+      {/* <Col xs={4} md={2} className="tech-icons">
         <DiJava />
-      </Col>
+      </Col> */}
     </Row>
   );
 }

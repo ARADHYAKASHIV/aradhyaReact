@@ -8,7 +8,7 @@ function Particle() {
       params={{
         particles: {
           number: {
-            value: 230,
+            value: 250,
             density: {
               enable: true,
               value_area: 1500,
@@ -19,11 +19,11 @@ function Particle() {
             opacity: 0.3,
           },
           move: {
-            direction: "right",
+            direction: "left",
             speed: 0.05,
           },
           size: {
-            value: 2.3,
+            value: 2.5,
           },
           opacity: {
             anim: {
@@ -39,6 +39,11 @@ function Particle() {
               enable: true,
               mode: "push",
             },
+            onhover: {
+              enable: true,
+              mode: "attract",
+            },
+            
           },
           modes: {
             push: {
