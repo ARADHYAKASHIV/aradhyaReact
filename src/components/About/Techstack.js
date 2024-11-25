@@ -9,8 +9,7 @@ import {
   DiPython,
   DiGit,
   //hello hi there
-  //hello hi there
-  
+  // Database management and version control
   DiDatabase,
   
   DiGitCommit,
