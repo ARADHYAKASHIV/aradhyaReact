@@ -1,5 +1,8 @@
+// Import necessary React and Bootstrap components
 import React from "react";
 import { Col, Row } from "react-bootstrap";
+
+// Import icons from react-icons libraries
 import { CgCPlusPlus } from "react-icons/cg";
 import {
   DiJavascript1,
@@ -30,9 +33,12 @@ import {
 } from "react-icons/si";
 // import { TbBrandGolang } from "react-icons/tb";
 
+// Component to display a grid of technology stack icons
 function Techstack() {
   return (
+    // Main container row with centered content
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+      {/* Programming Languages */}
       <Col xs={4} md={2} className="tech-icons">
         <CgCPlusPlus />
       </Col>
@@ -46,6 +52,7 @@ function Techstack() {
         <DiDatabase />
       </Col>
 
+      {/* Backend Technologies */}
       <Col xs={4} md={2} className="tech-icons">
         <DiPython />
       </Col>
@@ -55,6 +62,8 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <DiNodejs />
       </Col>
+
+      {/* Frontend Technologies */}
       <Col xs={4} md={2} className="tech-icons">
         <SiHtml5 />
       </Col>
@@ -64,9 +73,13 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <DiReact />
       </Col>
+
+      {/* Version Control and Development Tools */}
       <Col xs={4} md={2} className="tech-icons">
         <DiGitCommit />
       </Col>
+
+      {/* CSS Frameworks */}
       <Col xs={4} md={2} className="tech-icons">
         <SiBootstrap />
       </Col>
@@ -78,10 +91,12 @@ function Techstack() {
         <SiTailwindcss />
       </Col>
 
+      {/* Operating Systems and Environments */}
       <Col xs={4} md={2} className="tech-icons">
         <DiUbuntu />
       </Col>
       
+      {/* Databases and Cloud Services */}
       <Col xs={4} md={2} className="tech-icons">
         <DiMongodb />
       </Col>
@@ -102,4 +117,5 @@ function Techstack() {
   );
 }
 
+// Export the component for use in other parts of the application
 export default Techstack;
