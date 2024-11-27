@@ -29,6 +29,7 @@ function Home2() {
                 <b className="purple"> C/C++, Python and mySQL. </b>
               </i>
               <br />
+              {/* hello */}
               <br />
               My field of Interest's are building new &nbsp;
               <i>
