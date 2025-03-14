@@ -1,4 +1,5 @@
 import React from "react";
+import Spline from "@splinetool/react-spline";
 import { Container, Row, Col } from "react-bootstrap";
 import homeLogo from "../../Assets/home-main.svg";
 import Particle from "../Particle";
@@ -30,14 +31,12 @@ function Home() {
               </div>
             </Col>
 
-            <Col md={5} style={{ paddingBottom: 20 }}>
-              <img
-                src={homeLogo}
-                alt="home pic"
-                className="img-fluid"
-                style={{ maxHeight: "450px" }}
-              />
+<Col md={5} style={{ paddingBottom: 20 }}>
+              <div style={{ width: '100%', height: '450px', overflow: 'hidden' }}>
+                <Spline scene="https://prod.spline.design/k5bbg4epJjkb293I/scene.splinecode" />
+              </div>
             </Col>
+
           </Row>
         </Container>
       </Container>
