@@ -33,8 +33,9 @@ function Home() {
 
             <Col md={5} style={{ paddingBottom: 20 }}>
               <div style={{ width: '100%', height: '450px', overflow: 'hidden' }}>
-                <Spline scene="https://prod.spline.design/k5bbg4epJjkb293I/scene.splinecode" />
                 
+                <Spline scene="https://prod.spline.design/k5bbg4epJjkb293I/scene.splinecode" />
+
               </div>
             </Col>
 
