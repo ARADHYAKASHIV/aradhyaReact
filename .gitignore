@@ -25,5 +25,20 @@ yarn-error.log*
 
 .eslintcache
 
+# IDE/Editor
+.vscode/
+.idea/
+
+# Logs
+logs/
+*.log
+
+# Build artifacts
+dist/
+out/
+.cache/
+.temp/
+
+# Server-specific
 Server/node_modules
 Server/config.js
