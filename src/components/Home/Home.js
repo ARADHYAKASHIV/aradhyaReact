@@ -38,7 +38,6 @@ function Home() {
 
               </div>
             </Col>
-
           </Row>
         </Container>
       </Container>
