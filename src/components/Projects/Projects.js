@@ -3,9 +3,8 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
 import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
+import chatify from "../../Assets/Projects/chatify.svg";
 import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
 
@@ -25,10 +24,26 @@ function Projects() {
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
-              title="StudyHub"
-              description="                                                                                                                                                                                                                                                                                                                                                                 StudyHub is a innovative web-based platform designed to support students from 9th to 12th standard in their academic pursuits. The website aims to be a centralized hub for students to access a vast repository of subject-specific formulas and resources, empowering them to excel in their studies."
-              ghLink="https://github.com/ARADHYAKASHIV/studyhub6996"
-              // demoLink="https://chatify-49.web.app/"
+              title="WHISPR"
+              description="Real-time chat application leveraging React frontend with Node.js/Express backend. Implements secure user authentication via Firebase, persistent data storage with MongoDB, and instant messaging through Socket.io. Features a modern, responsive interface styled with Tailwind CSS. Optimized deployment on Vercel platform."
+              ghLink="https://github.com/ARADHYAKASHIV/whispr"
+              demoLink="https://whisprr.vercel.app/login"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={suicide}
+              isBlog={false}
+              title="PrepWise"
+              description="Developed a Full-Stack A1-powered mock interview platform simulating real-time technical
+interviews using GPT-based models
+Integrated real-time voice input/output using Web Speech API and OpenAl API for
+dynamic, conversational interactions
+Provided instant, A1-driven feedback on answers, helping users identify improvement areas
+in real time"
+              ghLink="https://github.com/ARADHYAKASHIV/PrepWise"
+              demoLink="https://prepwise-snowy.vercel.app/"
             />
           </Col>
 
@@ -74,17 +89,6 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={suicide}
-              isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention.this project is currently not mine"
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
-            />
-          </Col>
-
           {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={emotion}
@@ -103,3 +107,9 @@ function Projects() {
 }
 
 export default Projects;
+
+/*Developed a React-based real-time chat application with a Node.js + Express backend for seamless communication and scalability.
+
+• Integrated Firebase Authentication for secure login and MongoDB for efficient data storage, managing user data and chat histories seamlessly.
+
+• Implemented WebSocket (Socket.io) for real-time messaging and designed a responsive IJI with Tailwind CSS. Deployed on Vercel for optimized performance and high availability.*/
