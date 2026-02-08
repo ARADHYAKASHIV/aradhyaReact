@@ -85,7 +85,7 @@ in real time"
               title="Portfoloi Website 2.0"
               description="In the dynamic world of personal branding and online presence, the Portfolio Website 2.0 stands as a meticulously crafted digital canvas, designed to showcase your talent, expertise, and unique professional narrative. This next-generation portfolio website is a culmination of thoughtful design, strategic content curation, and a relentless pursuit of innovation."
               ghLink="https://github.com/ARADHYAKASHIV/aradhyakashiv.github.io"
-              // demoLink="https://plant49-ai.herokuapp.com/"
+              demoLink="https://aradhya.framer.ai/"
             />
           </Col>
 
