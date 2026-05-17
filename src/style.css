@@ -10,6 +10,13 @@ html {
   --imp-text-color: #c770f0;
 }
 
+body {
+  font-family: 'Inter', sans-serif !important;
+  color: #fff !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 .purple {
   color: var(--imp-text-color) !important;
 }
@@ -185,24 +192,6 @@ button:focus {
   transition: all 0.3s ease-out 0s;
   position: relative;
   z-index: 1;
-}
-
-.navbar-nav .nav-item a::after {
-  content: "";
-  position: relative;
-  display: block;
-  height: 5px;
-  width: 0;
-  border-radius: 16px;
-  background: #c95bf5;
-  bottom: 1px;
-  left: 0;
-  z-index: -1;
-  transition: all 0.3s ease-out 0s;
-}
-
-.navbar-nav .nav-item a:hover::after {
-  width: 100%;
 }
 
 /* --------- */
@@ -566,29 +555,7 @@ button:focus {
   border-radius: 0px !important;
 }
 
-/* Button Refinements */
-.btn-primary {
-  color: #fff !important;
-  background-image: linear-gradient(to right, #623686, #9b51e0) !important;
-  border: none !important;
-  border-radius: 30px !important;
-  padding: 10px 25px !important;
-  font-weight: 600 !important;
-  letter-spacing: 0.5px !important;
-  transition: all 0.3s ease !important;
-  margin: 5px !important;
-}
 
-.btn-primary:hover {
-  background-image: linear-gradient(to right, #7a43a8, #b562d6) !important;
-  transform: translateY(-2px) !important;
-  box-shadow: 0 5px 15px rgba(162, 77, 211, 0.4) !important;
-}
-
-.btn:focus {
-  outline: none !important;
-  box-shadow: none !important;
-}
 
 .project-heading {
   color: white !important;
@@ -801,8 +768,4 @@ button:focus {
   transform: translateY(-2px) !important;
   background-color: #a24dd386 !important;
   border-color: #a24dd386 !important;
-}
-
-.fork-btn-inner::after {
-  display: none !important;
 }
