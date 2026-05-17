@@ -6,6 +6,7 @@ import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
+import { motion } from "framer-motion";
 
 function About() {
   return (
@@ -41,9 +42,17 @@ function About() {
           <Col
             md={5}
             style={{ paddingTop: "120px", paddingBottom: "50px" }}
-            className="about-img"
+            className="about-img tw-relative"
           >
-            <img src={laptopImg} alt="about" className="img-fluid" />
+            <motion.div 
+              initial={{ opacity: 0, scale: 0.9 }}
+              whileInView={{ opacity: 1, scale: 1 }}
+              transition={{ duration: 0.8, ease: "easeOut" }}
+              className="tw-relative"
+            >
+              <div className="tw-absolute tw-inset-0 tw-bg-[#c770f0] tw-rounded-full tw-blur-[120px] tw-opacity-20"></div>
+              <img src={laptopImg} alt="about" className="img-fluid tw-relative tw-z-10 tw-drop-shadow-[0_0_40px_rgba(199,112,240,0.3)] hover:tw--translate-y-4 tw-transition-transform tw-duration-700" />
+            </motion.div>
           </Col>
         </Row>
             <Github />
