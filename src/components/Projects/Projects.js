@@ -30,6 +30,18 @@ function Projects() {
           </p>
           <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
 
+            <Col md={4} className="project-card">
+              <motion.div initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, margin: "-50px" }} transition={{ duration: 0.5, delay: 0.2 }} className="tw-h-full">
+                <ProjectCard
+                  imgPath={leaf}
+                  isBlog={false}
+                  title="JuriSight — AI Legal Document Analysis Platform"
+                  description="An AI-powered legal document analysis platform designed to help legal professionals analyze, understand, and manage complex documents through intelligent document analysis, citation-backed Q&A, semantic search, document comparison, and automated insights."
+                  ghLink="https://github.com/ARADHYAKASHIV/JuriSight-2"
+                  demoLink="https://juri-sight-2-frontend.vercel.app/"
+                  techStack={["React", "TypeScript", "Tailwind CSS", "Node.js", "PostgreSQL", "Prisma", "AI/RAG"]} />
+              </motion.div>
+            </Col>
 
             <Col md={4} className="project-card">
               <motion.div initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, margin: "-50px" }} transition={{ duration: 0.5, delay: 0.2 }} className="tw-h-full">
@@ -59,7 +71,7 @@ function Projects() {
               </motion.div>
             </Col>
 
-                        <Col md={4} className="project-card">
+            <Col md={4} className="project-card">
               <motion.div initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, margin: "-50px" }} transition={{ duration: 0.5, delay: 0.1 }} className="tw-h-full">
                 <ProjectCard
                   imgPath={aiVideoGen}
@@ -99,19 +111,7 @@ function Projects() {
               </motion.div>
             </Col>
 
-            <Col md={4} className="project-card">
-              <motion.div initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, margin: "-50px" }} transition={{ duration: 0.5, delay: 0.2 }} className="tw-h-full">
-                <ProjectCard
-                  imgPath={leaf}
-                  isBlog={false}
-                  title="Portfolio Website 2.0"
-                  description="In the dynamic world of personal branding and online presence, the Portfolio Website 2.0 stands as a meticulously crafted digital canvas, designed to showcase your talent, expertise, and unique professional narrative."
-                  ghLink="https://github.com/ARADHYAKASHIV/aradhyakashiv.github.io"
-                  demoLink="https://aradhya.framer.ai/"
-                  techStack={["React", "Tailwind", "Framer Motion"]}
-                />
-              </motion.div>
-            </Col>
+
 
             <Col md={4} className="project-card">
               <motion.div initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, margin: "-50px" }} transition={{ duration: 0.5, delay: 0.3 }} className="tw-h-full">
